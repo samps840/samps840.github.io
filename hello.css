@@ -1,4 +1,69 @@
-h1 { 
-    color: blue;
-    font-family: sans-serif;
+/* Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border` */
+html {
+  box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/* write your custom styling from this point forward */
+
+.body {
+  padding-left: 30px;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: url(../img/kristian-seedorff-149178.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.h1 {
+  color: #00202b;
+  font-family: sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 26px;
+}
+
+.h2 {
+  color: #d15f29;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.h3 {
+  color: #9eb19e;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  background-color: white;
+}
+
+.p {
+  color: #0b343a;
+  line-height: 150%;
+  font-family: serif;
+  font-size: 14px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(0,0,0,0.8);
+
+}
+
