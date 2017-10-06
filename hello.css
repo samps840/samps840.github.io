@@ -77,6 +77,15 @@ p {
 
 }
 
+a { 
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  padding-left: 30px;
+  margin: 10px;
+  
+}
+
 /*img {
     border: 1px solid #00202b;
     border-radius: 4px;
