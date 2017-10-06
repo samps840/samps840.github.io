@@ -18,52 +18,104 @@ html {
 /* write your custom styling from this point forward */
 
 body {
-  padding-left: 30px;
-}
-
-.background {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: url(../img/kristian-seedorff-149178.jpg);
+  background: url(../img/liv-bruce-270665.jpg);
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 h1 {
-  color: #00202b;
+  color: rgba(255,255,255,1);
   font-family: sans-serif;
-  font-size: 32px;
-  text-transform: uppercase;
-  letter-spacing: 26px;
+  font-size: 24px;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 14px;*/
+  padding-left: 30px;
+  padding-top: 30px;
+  text-shadow: 1px 1px rgba(0,0,0,0.3);
 }
 
 h2 {
-  color: #d15f29;
+  color: rgba(237, 209, 189,1);
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 32px;
   text-transform: uppercase;
+  padding-left: 30px;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px rgba(0,0,0,0.5);
+  position: relative;
 }
 
 h3 {
-  color: #9eb19e;
+  color: rgba(255,255,255,0.8);
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: 10px;
-  background-color: white;
+  padding-left: 30px;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px rgba(0,0,0,0.5);
+  position: relative;
 }
 
 p {
-  color: #0b343a;
+  color: #FFFFFF;
   line-height: 150%;
-  font-family: serif;
-  font-size: 14px;
+  font-family: helvetica neue; arial; sans-serif;
+  justify-content: flex-end;
+  letter-spacing: .4px;
+  font-size: 16px;
   padding: 20px;
-  margin: 10px;
-  background-color: rgba(0,0,0,0.8);
+  margin: 30px;
+  background-color: rgba(0,0,0,0.6);
+  padding-left: 30px;
 
 }
 
+/*img {
+    border: 1px solid #00202b;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100vw;
+    height: 100vh;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}*/
+/*
+html {font-size: 1em;}
+
+body {
+  background-color: white;
+  font-family: 'Helvetica Neue', sans serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.063em;
+}
+
+h2 {font-size: 3.375em;}
+
+h3 {font-size: 2.25em;}
+
+h4 {font-size: 1.5em;}
+
+small, .font_small {font-size: 0.667em;}*/
