@@ -66,7 +66,7 @@ h3 {
 p {
   color: #FFFFFF;
   line-height: 150%;
-  font-family: helvetica; arial; sans-serif;
+  font-family: helvetica, arial, sans-serif;
   justify-content: flex-end;
   letter-spacing: .4px;
   font-size: 16px;
@@ -82,7 +82,6 @@ a {
   font-family: helvetica, arial, sans-serif;
   font-size: 14px;
   padding-left: 30px;
-  margin: 10px;
   
 }
 
