@@ -21,7 +21,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: url(../img/liv-bruce-270665.jpg);
+  background: url(img/liv-bruce-270665.jpg);
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -80,10 +80,24 @@ p {
 a { 
   color: white;
   font-family: helvetica, arial, sans-serif;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
   padding-left: 30px;
   
 }
+
+li {
+  margin: 20px;
+  list-style: none;
+  padding: 10px;
+  float: left;
+  background-color:rgba(0,0,0,0.5);
+  list-style:none;
+  
+  
+}
+
+
 
 /*img {
     border: 1px solid #00202b;
