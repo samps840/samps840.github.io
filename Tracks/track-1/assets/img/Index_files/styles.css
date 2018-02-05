@@ -1,0 +1,14 @@
+body {background: radial-gradient(circle, #c00, #900);}
+
+h1 {
+    color: #FFF;
+    font-family:'Abril Fatface', cursive;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 60px;
+    display: inline-block;
+}
