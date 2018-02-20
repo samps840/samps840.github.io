@@ -7,6 +7,8 @@ $('.item').click(function() {
   
       $('.item-count').html(new_count);
       $(this).addClass('in-cart');
+      //add item to cart//
+      add_to_cart(this);
     }
     
   });
@@ -14,3 +16,13 @@ $('.item').click(function() {
   $('.cart-toggle').click(function() {
     $('.cart').toggleClass('hide');
   });
+
+  function add_to_cart(line_item) {
+
+  var price = $(line_item).data('price'),
+      img   = $(line_item).data('img'),
+      line_item_html = '<div class="line-item"><div class="line-item-img ' + img + '"></div><div class="line-item-price">' + price + '</div></div>';
+
+  $('.line-items').append(line_item_html);
+
+  }

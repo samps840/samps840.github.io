@@ -27,6 +27,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 100;
   background: #000;
   color: #fff;
   width: 675px;
@@ -54,11 +55,20 @@ body {
 .line-item-img {
   width: 100px;
   height: 100px;
-  background: url('../img/b.jpg');
+  background: #fff;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.a { background-image: url('../img/a.jpg');}
+.b { background-image: url('../img/b.jpg');}
+.c { background-image: url('../img/c.jpg');}
+.d { background-image: url('../img/d.jpg');}
+.e { background-image: url('../img/e.jpg');}
+.f { background-image: url('../img/f.jpg');}
+.g { background-image: url('../img/g.jpg');}
+.h { background-image: url('../img/h.jpg');}
 
 .line-item-price {
   position: absolute;
