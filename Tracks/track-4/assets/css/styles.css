@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #f6d400, #f29f26)
+}
+
+.title {
+    font-family: 'Petit Formal Script', serif;
+    font-size: 42px;
+    padding: 0 0 0 20px;
+}
+
+.year {
+    font-family: 'Petit Formal Script', serif;
+    font-size: 24px;
+    padding: 0 0 0 20px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.lyrics {
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding: 0 0 0 20px;
+    overflow: scroll;
+}
+
+.songtitle {
+    font-family: 'Petit Formal Script', serif;
+    font-size: 32px;
+    padding: 0 0 20px 0;
+}
+
+.text {
+    font-family: 'Petit Formal Script', serif;
+    font-size: 18px;
+    line-height: 32px;
+}
