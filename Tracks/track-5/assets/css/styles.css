@@ -1,45 +1,183 @@
-@keyframes moveup {
-    0% {top: 300px;}
-    50% {top: 200px;}
-    100% {top: 300px;}
+@keyframes iconfade {
+    0% {opacity: 0%;}
+    50% {opacity: 100%;}
+    100% {opacity: 0%;}
 }
 
-
-body {
-    background: linear-gradient(to right, #000, #53346d, #000)
+.text {
+    font-family: 'Abril Fatface', serif;
+    font-size: 24px;
+    color: #FFF;
+    position: absolute;
+    letter-spacing: 2px;
+    padding: 10px;
 }
 
-h1 {
-    font-size: 48px;
-    font-family: 'New Rocker', sans-serif;
-    text-align: center;
-    color: #f2edf6;
+img {
+    position: absolute;
+    width: 100%;
 }
 
-h2 {
-    font-size: 32px;
-    font-family: 'New Rocker', sans-serif;
-    text-align: center;
-    color: #f2edf6;
-}
-
-.rock {
-    width: 100px;
+.song {
+    position: absolute;
+    width: 60%;
     height: 200px;
-    position: absolute;
-    top: 250px;
-    left: 300px;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 150px;
+    padding: 50px;
+    border: 4px solid #000;
+    background-color: rgba(255,255,255, 0.8);
+    line-height: 1.5em;
+    overflow: scroll;
+
+    
 }
 
-.sword {
-    transform: rotate(-45deg);
-    position: absolute;
-    top: 300px;
-    left: 500px;
-    animation-name: moveup;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-delay: 2s;
-    animation-timing-function: ease-in-out;
-
+.title {
+    font-size: 18px;
+    font-family: 'Abril Fatface', serif;
 }
+
+.lyrics {
+    font-size: 14px;
+    font-family: 'Abril Fatface', serif;
+}
+
+/* .keyc {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.keyd {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 153px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.keye {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 258px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.keyf {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 366px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.keyg {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.keya {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 576px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.keyb {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 683px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.keycc {
+    width: 100px;
+    height: 220px;
+    margin-top: 560px;
+    margin-left: 790px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #fff;
+} */
+
