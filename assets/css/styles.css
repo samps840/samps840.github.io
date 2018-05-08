@@ -1,3 +1,19 @@
+/* set max-width to 675px */
+
+/* Animations */
+@keyframes growtext {
+    0% {font-size: 100%;}
+    50% {font-size: 115%;}
+    100% {font-size: 100%;}
+}
+
+@keyframes colorchange {
+    0% {opacity: 100%;}
+    10%{color: #4740B1;}
+    70%{color: #4740B1;}
+    100%{opacity: 100%;}
+}
+
 /*mobile*/
 body {
     box-sizing: border-box;
@@ -58,7 +74,7 @@ img {
     margin: 50px auto;
     font-size: 20px;
     line-height: 40px;
-    max-width: 945px;
+    max-width: 675px;
 }
 
 .largebutton {
@@ -66,7 +82,7 @@ img {
     height: 140px;
     background-color: #000;
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-weight: bold;
@@ -78,12 +94,13 @@ img {
     color: #fff;
 }
 
-a {
+a:link {
     text-decoration: none;
 }
 
 a:hover {
-
+    animation: colorchange 4s ease-in-out;
+    /* animation: growtext 1.25s ease-in-out; */
 }
 
 .key { background-color: #5CD2FC; }
@@ -96,6 +113,11 @@ a:hover {
     color: #fff;
     padding: 24px;
     line-height: 24px;
+}
+
+.email {
+    text-decoration: none;
+    color: #fff;
 }
 
 .pagetitle {
@@ -120,16 +142,17 @@ a:hover {
 }
 
 .maincontent {
-    /* margin: 50px 20px; */
-    max-width: 945px;
+    /* margin: 0 auto;
+    max-width: 675px; */
     line-height: 2em;
     font-size: 16px;
     text-align: left;
 }
 
 .summary {
-    max-width: 945px;
-    margin: 40px 20px;
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 675px;
     font-size: 18px;
     line-height: 36px;
 }
@@ -139,9 +162,11 @@ a:hover {
 }
 
 .secthead {
-    margin: 20px;
+    /* margin: 20px; */
     font-weight: bold;
     font-size: 18px;
+    text-align: center;
+    padding: 0px 20px;
 }
 
 .sectsub {
@@ -149,16 +174,22 @@ a:hover {
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
+    text-align: center;
+    padding: 0px 20px;
 
 }
 
 .boldtext {
-    margin: 10px 20px;
+    margin: 10px auto;
+    max-width: 675px;
     font-weight: bold;
+    padding: 0px 20px;
 }
 
 .bodytext {
-    margin: 10px 20px;
+    margin: 10px auto;
+    max-width: 675px;
+    padding: 0px 20px;
 }
 
 .video {
@@ -168,5 +199,4 @@ a:hover {
 .content-image {
     width: 100vw;
     height: auto;
-    margin: 0px;
 }
