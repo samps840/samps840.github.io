@@ -101,7 +101,7 @@ img {
 }
 
 .buttontext {
-    padding: 50px;
+    padding: 55px;
 }
 
 a:link {
@@ -129,6 +129,10 @@ a:hover {
     padding: 24px;
     line-height: 24px;
     animation: fadein 1.5s ease-in;
+}
+
+.foot a {
+    color: #fff;
 }
 
 .email {
@@ -183,7 +187,7 @@ a:hover {
 .secthead {
     /* margin: 20px; */
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 0px 20px;
 }
@@ -191,7 +195,7 @@ a:hover {
 .sectsub {
     margin: 10px 20px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: center;
     padding: 0px 20px;
@@ -211,7 +215,26 @@ a:hover {
     padding: 0px 20px;
 }
 
-.video {
+.quote {
+    max-width: 675px;
+    margin: 20px auto;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.quotecap {
+    max-width: 675px;
+    margin: 20px auto;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    opacity: 0.5;
+}
+
+ul {
+    text-decoration: none;
 }
 
 iframe {
@@ -224,4 +247,5 @@ iframe {
     width: 100vw;
     height: auto;
 }
+
 
