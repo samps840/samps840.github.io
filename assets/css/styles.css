@@ -8,10 +8,15 @@
 }
 
 @keyframes colorchange {
-    0% {opacity: 100%;}
-    10%{color: #4740B1;}
-    70%{color: #4740B1;}
-    100%{opacity: 100%;}
+    0% {opacity: 100%; }
+    10% {color: #4740B1; }
+    70% {color: #4740B1; }
+    100% {opacity: 100%; }
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 /*mobile*/
@@ -31,12 +36,14 @@ body {
 .logo {
     margin: 0px auto;
     display: block;
+    animation: fadein 1.5s ease-in;
 }
 
 img {
-    width: 20vw;
+    width: 18vw;
     padding-top: 10px;
     display: inline-block;
+    animation: fadein 0.5s ease-in;
 }
 
 .name {
@@ -44,6 +51,7 @@ img {
     letter-spacing: 5px;
     font-weight: bold;
     text-transform: uppercase;
+    animation: fadein 1.5s ease-in;
     
 }
 
@@ -51,6 +59,7 @@ img {
     list-style-type: none;
     display: block;
     padding: 20px;
+    animation: fadein 1.5s ease-in;
 
 }
 
@@ -75,6 +84,7 @@ img {
     font-size: 20px;
     line-height: 40px;
     max-width: 675px;
+    animation: fadein 1.5s ease-in;
 }
 
 .largebutton {
@@ -87,18 +97,23 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+    animation: fadein 1.5s ease-in;
 }
 
 .buttontext {
-    padding: 46px;
-    color: #fff;
+    padding: 50px;
 }
 
 a:link {
-    text-decoration: none;
+    text-decoration: none;   
+}
+
+.buttontext a { 
+    color: #fff;
 }
 
 a:hover {
+    /* color: hotpink; */
     animation: colorchange 4s ease-in-out;
     /* animation: growtext 1.25s ease-in-out; */
 }
@@ -113,6 +128,7 @@ a:hover {
     color: #fff;
     padding: 24px;
     line-height: 24px;
+    animation: fadein 1.5s ease-in;
 }
 
 .email {
@@ -139,6 +155,7 @@ a:hover {
 .about {
     background-color: #fff;
     color: #000;
+    animation: fadein 1.5s ease-in;
 }
 
 .maincontent {
@@ -147,6 +164,7 @@ a:hover {
     line-height: 2em;
     font-size: 16px;
     text-align: left;
+    animation: fadein 1.5s ease-in;
 }
 
 .summary {
@@ -155,6 +173,7 @@ a:hover {
     max-width: 675px;
     font-size: 18px;
     line-height: 36px;
+    animation: fadein 1.5s ease-in;
 }
 
 .section {
@@ -193,6 +212,11 @@ a:hover {
 }
 
 .video {
+}
+
+iframe {
+    width: 375px;
+    height: 270px;
     margin: 20px auto;
 }
 
@@ -200,3 +224,4 @@ a:hover {
     width: 100vw;
     height: auto;
 }
+
